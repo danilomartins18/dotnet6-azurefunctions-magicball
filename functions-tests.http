@@ -1,0 +1,13 @@
+# Get Response request
+
+@baseUrl=http://localhost:7071/api
+@question=Posso comer besteira hoje?
+@functionKey=suaKey
+
+# name GetResponse
+GET {{baseUrl}}/GetResponse?code={{functionKey}}&q={{question}}
+
+###
+
+# name GetSettingInfo
+GET {{baseUrl}}/GetSettingInfo?code={{functionKey}}
