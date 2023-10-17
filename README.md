@@ -62,3 +62,7 @@ Create a Function App
 Publish your Function App's code
 
 `func azure functionapp publish func-magicball-lab-eastus-001`
+
+Deleting the resource group
+
+`az group delete -n az-204 --no-wait --yes`
