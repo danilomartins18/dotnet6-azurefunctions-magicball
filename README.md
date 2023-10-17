@@ -4,11 +4,16 @@ This project is one azure function app to get a response according the question 
 
 The resource names of the commands below were the names I adopted, but it is possible to use other names.
 
+
 In this example of implementing a serverless application, 3 types of templates were created:
 
 1- Http Trigger GET where it returns an answer to any question asked via querystring;
 2- Same application, but by appointment, providing a response every 30 seconds;
 3- HTTP Trigger GET to integrate with a blob storage where a configuration file in json will be retrieved.
+
+The reference for these examples was the following Microsoft Learn link:
+
+[Lab 02: Implement task processing logic by using Azure Functions](https://microsoftlearning.github.io/AZ-204-DevelopingSolutionsforMicrosoftAzure/Instructions/Labs/AZ-204_lab_02.html)
 
 ##### Install the Azure Functions Core Tools
 
